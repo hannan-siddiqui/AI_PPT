@@ -81,7 +81,7 @@ JUDGE_API_KEY=your-judge-api-key-here
 # BACKUP / FALLBACK MODEL (Nvidia NIM / Nemotron)
 # Automatic high-performance fallback if primary endpoints are not configured
 # -----------------------------------------------------------------
-NVIDIA_API_KEY=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
+NVIDIA_API_KEY= your api key
 NVIDIA_BASE_URL=https://integrate.api.nvidia.com/v1
 NVIDIA_MODEL=nvidia/nemotron-3-ultra-550b-a55b
 
