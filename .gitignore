@@ -1,0 +1,40 @@
+# Dependencies
+frontend/node_modules/
+node_modules/
+
+# Next.js build outputs
+frontend/.next/
+frontend/out/
+frontend/build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python / Backend
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+backend/.venv/
+backend/venv/
+.venv/
+venv/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env*
+!backend/.env.example
+
+# Uploads & Outputs
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/outputs/*
+!backend/outputs/.gitkeep
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
